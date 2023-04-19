@@ -1,2 +1,8 @@
-package com.boot.h2;public class EmployeeRepository {
+package com.boot.h2;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+
 }
